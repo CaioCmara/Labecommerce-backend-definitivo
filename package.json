@@ -1,0 +1,35 @@
+{
+  "name": "labecommerce-backend",
+  "version": "1.0.0",
+  "description": "Primeiro projeto backend da labenu",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && node ./build/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CaioCmara/labecommerce-backend.git"
+  },
+  "keywords": [
+    "backend",
+    "ecommerce"
+  ],
+  "author": "Caio Câmara",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CaioCmara/labecommerce-backend/issues"
+  },
+  "homepage": "https://github.com/CaioCmara/labecommerce-backend#readme",
+  "devDependencies": {
+    "@types/cors": "^2.8.13",
+    "@types/express": "^4.17.16",
+    "typescript": "^4.9.4"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "knex": "^2.4.2",
+    "sqlite3": "^5.1.4"
+  }
+}
